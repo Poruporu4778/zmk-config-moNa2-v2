@@ -44,23 +44,23 @@ layers:
   - {t: ENTER, h: '1'}
   - LEFT ALT
   '1':
-  - +
+  - Sft+;
   - '1'
   - '2'
   - '3'
   - '-'
-  - +
+  - Sft+;
   - '-'
   - '1'
   - '2'
   - '3'
-  - '*'
+  - Sft+QUOT
   - '4'
   - '5'
   - '6'
   - /
   - {t: ▽, type: trans}
-  - '*'
+  - Sft+QUOT
   - /
   - '4'
   - '5'
@@ -69,10 +69,10 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '='
+  - Sft+-
+  - {t: Sft+CLCK, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '='
+  - Sft+-
   - .
   - '7'
   - '8'
