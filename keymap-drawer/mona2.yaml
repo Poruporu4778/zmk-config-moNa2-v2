@@ -87,48 +87,48 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   '2':
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '-'
-  - _
-  - '`'
-  - '~'
-  - '"'
-  - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB3'
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '='
-  - +
   - F1
   - F2
   - F3
+  - '-'
+  - Sft+;
+  - '='
+  - Sft+6
+  - Sft+=
+  - ']'
+  - \
   - F4
   - F5
-  - F11
-  - F12
   - F6
+  - /
+  - Sft+QUOT
+  - {t: ▽, type: trans}
+  - '!'
+  - '['
+  - '#'
+  - $
+  - '%'
   - F7
   - F8
   - F9
+  - .
+  - Sft+-
+  - '2'
+  - QUOT
+  - ;
+  - Sft+8
+  - Sft+9
+  - Sft+INTERNATIONAL 1
+  - {t: Sft+/, h: RIGHT SHIFT}
   - F10
+  - F11
+  - {t: F12, type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+2
+  - Sft+7
+  - Sft+,
+  - Sft+.
+  - INT3
   '3':
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
