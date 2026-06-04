@@ -122,8 +122,8 @@ layers:
   - {t: Sft+/, h: RIGHT SHIFT}
   - F10
   - F11
-  - {t: F12, type: held}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - F12
   - Sft+2
   - Sft+7
   - Sft+,
