@@ -121,7 +121,7 @@
 &kp F1      &kp F2       &kp F3      &kp MINUS   &kp JP_PLUS                                 &kp JP_CARET     &kp JP_AMPERSAND  &kp JP_TILDE   &kp JP_LBRACKET          &kp JP_RBRACKET
 &kp F4      &kp F5       &kp F6      &kp SLASH   &kp JP_ASTERISK           &trans            &kp EXCLAMATION  &kp JP_AT         &kp HASH       &kp DOLLAR               &kp PERCENT
 &kp F7      &kp F8       &kp F9      &kp PERIOD  &kp JP_EQUAL     &mo 2    &kp JP_COLON      &kp SEMICOLON    &kp JP_LPAREN     &kp JP_RPAREN  &kp LS(INTERNATIONAL_1)  &mt RIGHT_SHIFT LS(SLASH)  
-&kp F10     &kp F11      &kp F12     &trans      &kp LS(N2)       &kp LS(N7)                 &kp LS(COMMA)    &kp LS(PERIOD)                                            &kp INT3
+&kp F10     &kp F11      &trans      &kp F12     &kp LS(N2)       &kp LS(N7)                 &kp LS(COMMA)    &kp LS(PERIOD)                                            &kp INT3
             >;
 
             sensor-bindings = <&scroll_up_down>;
