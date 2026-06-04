@@ -89,7 +89,16 @@
 
             tap-ms = <20>;
         };
+
+        mouse_layer_tap: mouse_layer_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&mkp>;
     };
+};
+
 
     keymap {
         compatible = "zmk,keymap";
@@ -110,7 +119,7 @@
 &kp JP_PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS                          &kp JP_PLUS      &kp MINUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
 &kp JP_ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                &trans    &kp JP_ASTERISK  &kp SLASH   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6
 &kp PERIOD    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_EQUAL  &kt LS(CLCK)  &trans    &kp JP_EQUAL     &kp PERIOD  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9
-&trans        &kp NUMBER_0  &kp NUMBER_0  &trans        &trans     &trans    &trans  &trans                                                &kp NUMBER_0
+&trans        &kp NUMBER_0  &kp NUMBER_0  &trans        &trans     &trans    &trans  &trans                                                            &kp NUMBER_0
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -153,7 +162,7 @@
             bindings = <
 &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS                                &trans               &trans  &kp HOME        &kp LEFT_ARROW  &kp END
 &kp ASTERISK  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH            &trans              &trans               &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp PERIOD    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL  &trans    &trans              &trans               &trans  &mkp LCLK       &mkp MCLK       &mkp RCLK
+&kp PERIOD    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL  &trans    &trans              &trans               &trans  &mkp LCLK       &mkp MCLK       &mouse_layer_tap 6 RCLK
 &trans        &kp NUMBER_0  &kp NUMBER_0  &trans        &trans     &trans    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)                                          &trans
             >;
 
