@@ -216,32 +216,32 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - +
+  - '1'
+  - '2'
+  - '3'
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
   - LEFT ARROW
   - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - .
+  - '7'
+  - '8'
+  - '9'
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -250,8 +250,8 @@ layers:
   - '&mkp MCLK'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
