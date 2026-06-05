@@ -27,21 +27,21 @@ layers:
   - C
   - V
   - B
-  - TAB
-  - DELETE
+  - '&to_layer_0 TAB'
+  - '&to_layer_0 DELETE'
   - B
   - N
   - M
   - ','
   - {t: ., h: RSHIFT}
-  - LCTRL
+  - '&to_layer_0 LCTRL'
   - LEFT WIN
   - {t: F7, h: '2'}
-  - {t: LANGUAGE 2, h: '3'}
-  - {t: SPACE, h: '1'}
-  - {t: '&to_layer_0 LANGUAGE_1', h: '3'}
-  - BACKSPACE
-  - {t: ENTER, h: '1'}
+  - {t: '&to_layer_0 LANGUAGE_2', h: '3'}
+  - {t: '&to_layer_0 SPACE', h: '1'}
+  - {t: '&to_layer_0 LANGUAGE_1', h: '2'}
+  - '&to_layer_0 BACKSPACE'
+  - {t: '&to_layer_0 ENTER', h: '1'}
   - LEFT ALT
   '1':
   - Sft+;
@@ -155,10 +155,10 @@ layers:
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Ctl+M
+  - MUTE
+  - BRI DN
+  - BRI UP
   - DELETE
   - PAGE UP
   - PAGE DOWN
@@ -244,8 +244,8 @@ layers:
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+LEFT ARROW
+  - Alt+RIGHT ARROW
   - '&mkp LCLK'
   - '&mkp MCLK'
   - {t: '&mkp RCLK', h: '6'}
@@ -255,8 +255,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+LEFT ARROW
-  - Alt+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
   - {t: ▽, type: trans}
