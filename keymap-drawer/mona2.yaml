@@ -27,20 +27,20 @@ layers:
   - C
   - V
   - B
-  - '&to_layer_0 TAB'
-  - '&to_layer_0 DELETE'
+  - TAB
+  - DELETE
   - B
   - N
   - M
   - ','
   - {t: ., h: RSHIFT}
-  - '&to_layer_0 LCTRL'
+  - LCTRL
   - LEFT WIN
   - {t: F7, h: '2'}
   - {t: '&to_layer_0 LANGUAGE_2', h: '3'}
   - {t: '&to_layer_0 SPACE', h: '1'}
   - {t: '&to_layer_0 LANGUAGE_1', h: '2'}
-  - '&to_layer_0 BACKSPACE'
+  - BACKSPACE
   - {t: '&to_layer_0 ENTER', h: '1'}
   - LEFT ALT
   '1':
