@@ -158,7 +158,7 @@
 
         MOUSE {
             bindings = <
-&mt JP_PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS                          &kp HOME            &kp LEFT_ARROW       &kp UP_ARROW    &kp RIGHT_ARROW  &kp END
+&mt LSHIFT JP_PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS                          &kp HOME            &kp LEFT_ARROW       &kp UP_ARROW    &kp RIGHT_ARROW  &kp END
 &kp JP_ASTERISK    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                  &trans  &trans              &kp LEFT_ARROW       &kp DOWN_ARROW  &mkp MCLK        &mouse_layer_tap 6 RCLK
 &kp PERIOD      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_EQUAL  &kp LEFT_ALT    &trans  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &mkp LCLK       &mkp MCLK        &mouse_layer_tap 6 RCLK
 &trans          &kp NUMBER_0  &kp NUMBER_0  &trans        &trans     &trans          &trans  &trans                                                                    &trans
