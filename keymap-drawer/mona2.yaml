@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
-  - '&mt LS(SEMICOLON)'
+  - {t: Sft+;, h: LSHIFT}
   - '1'
   - '2'
   - '3'
