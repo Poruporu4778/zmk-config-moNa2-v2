@@ -216,15 +216,15 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
-  - +
+  - {t: +, h: LSHFT}
   - '1'
   - '2'
   - '3'
   - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - HOME
   - LEFT ARROW
+  - UP ARROW
+  - RIGHT ARROW
   - END
   - '*'
   - '4'
@@ -233,16 +233,16 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
-  - RIGHT ARROW
+  - '&mkp MCLK'
+  - {t: '&mkp RCLK', h: '6'}
   - .
   - '7'
   - '8'
   - '9'
   - '='
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - Alt+LEFT ARROW
   - Alt+RIGHT ARROW
@@ -279,19 +279,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
