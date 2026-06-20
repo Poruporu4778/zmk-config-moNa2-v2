@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - '-'
+  - {t: '-', h: '5'}
   - Z
   - X
   - C
@@ -236,7 +236,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - '&mkp MCLK'
-  - {t: '&mkp RCLK', h: '6'}
+  - {t: '&mkp RCLK', h: '6', type: held}
   - .
   - '7'
   - '8'
