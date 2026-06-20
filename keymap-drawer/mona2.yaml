@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: '5'}
+  - {t: '-', h: '6'}
   - Z
   - X
   - C
@@ -236,7 +236,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MCLK'
-  - {t: '&mkp RCLK', h: '6', type: held}
+  - {t: '&mkp RCLK', h: '6'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
