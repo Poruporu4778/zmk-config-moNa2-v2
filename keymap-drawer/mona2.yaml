@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: RIGHT ALT}
+  - {t: '-', h: '6'}
   - Z
   - X
   - C
@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 LANGUAGE_1', h: '2'}
   - BACKSPACE
   - {t: '&to_layer_0 ENTER', h: '1'}
-  - {t: '5', h: toggle}
+  - RIGHT CONTROL
   '1':
   - Sft+;
   - '1'
